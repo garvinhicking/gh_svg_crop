@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <sheetTitle>Optionen</sheetTitle>
+                <type>array</type>
+                <el>
+                    <settings.cropImage>
+                        <label>Crop Image(s)</label>
+                        <config>
+                            <type>file</type>
+                            <maxitems>3</maxitems>
+                            <allowed>common-image-types</allowed>
+                        </config>
+                    </settings.cropImage>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

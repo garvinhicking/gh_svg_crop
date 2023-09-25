@@ -1,0 +1,20 @@
+<p>Plugin: SVG crop</p>
+
+<h1>Via FlexForm</h1>
+<div style="border: 1px solid red; margin: 5px; padding: 5px">
+<f:for each="{images}" as="cropImage">
+    Show uid#{cropImage.uid}<br />
+    <f:image image="{cropImage}" /><br />
+</f:for>
+</div>
+
+<h1>Via {f:image}</h1>
+<div style="border: 1px solid blue; margin: 5px; padding: 5px">
+    <f:image src="EXT:gh_svg_crop/Resources/Public/Images/use.svg" cropVariant="square" width="60c" height="60c" crop="64,64,64,64" />
+</div>
+
+<h1>Via {f:image}, cast as PNG</h1>
+<div style="border: 1px solid yellow; margin: 5px; padding: 5px">
+    <f:image src="EXT:gh_svg_crop/Resources/Public/Images/use2.svg" cropVariant="square" width="60c" height="60c" crop="64,64,64,64" fileExtension="png" />
+</div>
+

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.1",
+  "name": "garvinhicking/svg-crop",
+  "type": "typo3-cms-extension",
+  "description": "",
+  "authors": [
+    {
+      "name": "Garvin Hicking",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^13.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GarvinHicking\\SvgCrop\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "gh_svg_crop"
+    }
+  }
+}
